@@ -3,3 +3,4 @@ __pycache__/
 logger.log
 test/
 config.py
+test.py
