@@ -78,7 +78,7 @@ def answer_callback(call: CallbackQuery):
     if 0 <= question_index < QUESTIONS_COUNT:
         with bot.retrieve_data(call.from_user.id, call.message.chat.id) as data:
             data['results'][question_index // 7][question_index % 7] = lst[2]
-            print(data['results'])
+            logger.info('матрица ответов:\n{}'.format(data['results']))
 
     """Дойдя до последнего вопроса/ответа выдаем результат опроса"""
     if question_index == (QUESTIONS_COUNT - 1):

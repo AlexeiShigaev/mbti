@@ -1,2 +1,6 @@
-# mbti
-Myers–Briggs Type Indicator
+# mbti test Майерс-Бриггс
+в виде бота для telegramm
+# about
+70 вопросов<br>
+16 типов личности<br>
+Узнай свой тип личности по методике Майерс-Бриггс
